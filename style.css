@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+.heading {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.heading h1 {
+  font-size: 2.9rem;
+  font-weight: 800;
+  color: #333;
+}
+.heading span {
+  color: #008cba;
+}
+.heading i {
+  font-size: 4.2rem;
+  margin-right: -1.5rem;
+  color: #008cba;
+}
+
+#book-form {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #222;
+}
+#book-form input {
+  border: 1px solid #ccc;
+}
+.first {
+  width: 80%;
+  height: 1.8rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.second {
+  width: 80%;
+  height: 1.8rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.third {
+  width: 80%;
+  height: 1.8rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.submit {
+  width: 80%;
+  height: 2.2rem;
+  font-size: 0.8rem;
+  color: #fff;
+  background: #008cba;
+}
+.fail {
+  text-align: center;
+  color: #ccc;
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 0.3rem;
+  background: red;
+  border-radius: 5px;
+}
+
+.succeed {
+  text-align: center;
+  color: #ccc;
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 0.3rem;
+  background: rgb(8, 151, 8);
+  border-radius: 5px;
+}
